@@ -15,15 +15,6 @@ function VendorDashboard({vendor,setVendor, products, setProducts}) {
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold mb-6">Welcome, {vendor.name}</h1>
 
-        <Link
-          to="/"
-          className="flex items-center gap-1 text-indigo-600 hover:text-indigo-800"
-          aria-label="Go to Home"
-          title="Home"
-        >
-          <Home size={20} />
-          Home
-        </Link>
       </div>
 
       <nav className="mb-6 flex gap-6 border-b">
