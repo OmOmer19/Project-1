@@ -148,7 +148,7 @@ function VendorProfile({ vendor, onUpdateVendor }) {
       )}
       
     </div>
-  );
+  )
 }
 
 export default VendorProfile;
