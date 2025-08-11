@@ -46,6 +46,10 @@ function cartReducer(state,action){
             })
             return {...state, cartItems: updatedItems}
 
+        case "CLEAR_CART":
+            //we will reset the cart when user logs out
+            return{...state, cartItems:[]}
+
             default:
                 return state
     }
